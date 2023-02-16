@@ -12,7 +12,7 @@ class Account {
         if (this.#authenticate(email, password)) {
             return this.#balance
         } else {
-            return null
+            return null //ok
         }
     }
 
