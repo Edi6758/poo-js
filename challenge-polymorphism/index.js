@@ -15,7 +15,7 @@ beatrice.attack(arthur)
 console.table({ arthur, beatrice, cain })
 
 cain.attack(arthur)
-arthur.heal(arthur) //ok
+arthur.heal(arthur) //ok ok
 beatrice.attack(cain)
 
 console.table({ arthur, beatrice, cain })
